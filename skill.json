@@ -1,0 +1,30 @@
+{
+  "name": "genpark-skill-workflow-reuser-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Reusable workflow pattern library manager.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "workflow",
+    "reuse",
+    "skills"
+  ],
+  "inputs": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "input_variables": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "rendered_workflow": {
+      "type": "array"
+    },
+    "workflow_found": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
